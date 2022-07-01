@@ -3,6 +3,9 @@ import { User } from "../model/User";
 interface ICreateUserDTO {
   name: string;
   email: string;
+  admin?: boolean;
+  created_at?: Date;
+  updated_at?: Date;
 }
 
 interface IUsersRepository {
