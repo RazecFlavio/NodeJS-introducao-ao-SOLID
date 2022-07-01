@@ -1,0 +1,20 @@
+{
+     "openapi": "3.0.0",
+    "info": {
+        "title": "Atlas",
+        "description": "Essa é uma documentação sobre a Atlas API",
+        "version": "1.0.0",
+        "contact": {
+            "email": "r4zecflavio@gmail.com"
+        }
+    },
+    "paths":{
+        "/users":{
+            "post":{
+                "tags":["Users"],
+                "summary": "Create a User",
+                "description": "create a new user."
+            }
+        }
+    }
+}
